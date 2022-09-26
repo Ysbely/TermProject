@@ -1,0 +1,19 @@
+table{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FFD6E4;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    text-align: center;
+}
