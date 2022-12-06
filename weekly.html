@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> New York in the summer</title>
+    <link rel="stylesheet"  href="header.css">
+    <!-- <link rel="stylesheet"  href="sitemap.css"> -->
+<style>
+    table{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-color: #F5F5F2;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3em 0.5em;
+    text-align: center;
+}
+</style>
+</head>
+<!-- people give permission to leave site  -->
+<body onbeforeunload= "return safeLeave()">
+    <div class="header">
+        <a href="#default" class="logo"><img src = "picture/logo.PNG" height="50px"></a>
+        <div class="header-right , active" > 
+        <a href="home.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="reccs.html">My Recommendations</a>
+        <a href="weekly.html">Monthly Picks</a>
+        </div>
+      </div>   
+    <table>
+        <tr>
+            <td>
+               <h2>Best sites to see </h2>
+               <p>New York has so many amazing sites to see and lots of hidden gems. This months trendy spot to take a pictire will be SoHo's pink wall. <a href="https://www.flytographer.com/destinations/new-york-city/routes/soho/">Check out why here!</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <h2>Best resturants</h2>
+               <p> New York City is home to phenomal resturants. This months trendy spot to have a bite out will be<a href="https://www.maisonpickle.com/"> Masion Pickle</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td >
+               <h2>Happy Hour</h2>
+               <p> Theres so many cute and trendy places to grab an afternoon drink with some friends. This months trendy spot to have a nice drink will be<a href="https://www.zmenu.com/212-hisaes-new-york-online-menu/"> 212 Hisae</a></p>
+            </td>
+        </tr>
+    </table>
+<script>
+    // what to return on the click
+        function safeLeave() {
+          return "Lets stay here, where it's safe";
+          console.log("Yea, this works!!")
+        }
+</script>
+        
+</body>
+</html>

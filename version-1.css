@@ -52,3 +52,9 @@
       float: none;
     }
   } */
+ h1 {
+    text-shadow: 1px 1px blueviolet;
+    text-decoration: underline;
+    text-align: center;
+    border: 3px solid blue;
+  }
